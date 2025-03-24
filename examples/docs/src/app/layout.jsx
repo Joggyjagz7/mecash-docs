@@ -5,22 +5,22 @@ import { getPageMap } from 'nextra/page-map'
 import 'nextra-theme-docs/style.css'
 
 export const metadata = {
-  metadataBase: new URL('https://nextra.site'),
+  metadataBase: new URL('https://me-cash.com'),
   title: {
     template: '%s - Nextra'
   },
-  description: 'Nextra: the Next.js site builder',
-  applicationName: 'Nextra',
+  description: 'meCash Docs',
+  applicationName: 'meCash',
   generator: 'Next.js',
   appleWebApp: {
-    title: 'Nextra'
+    title: 'meCash'
   },
   other: {
-    'msapplication-TileImage': '/ms-icon-144x144.png',
+    'msapplication-TileImage': '/mecashdark.png',
     'msapplication-TileColor': '#fff'
   },
   twitter: {
-    site: 'https://nextra.site'
+    site: 'https://me-cash.com'
   }
 }
 
@@ -30,7 +30,7 @@ export default async function RootLayout({ children }) {
       logo={
         <div>
           <b>Nextra</b>{' '}
-          <span style={{ opacity: '60%' }}>The Next Docs Builder</span>
+          <span style={{ opacity: '60%' }}>meCash Docs</span>
         </div>
       }
       // Next.js discord server
@@ -43,9 +43,9 @@ export default async function RootLayout({ children }) {
       <Head faviconGlyph="✦" />
       <body>
         <Layout
-          banner={<Banner storageKey="Nextra 2">Nextra 2 Alpha</Banner>}
+          banner={<Banner storageKey="meCash Docs v1">meCash Docs v1</Banner>}
           navbar={navbar}
-          footer={<Footer>MIT {new Date().getFullYear()} © Nextra.</Footer>}
+          footer={<Footer>meCash {new Date().getFullYear()} © meCash.</Footer>}
           editLink="Edit this page on GitHub"
           docsRepositoryBase="https://github.com/shuding/nextra/blob/main/examples/docs"
           sidebar={{ defaultMenuCollapseLevel: 1 }}

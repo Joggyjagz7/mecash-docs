@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nextra
 
 Simple, powerful and flexible site generation framework with everything you love
@@ -63,3 +64,6 @@ the watch mode for both Nextra and the theme in separated terminals.
    <img src="/docs/app/showcase/_logos/xyflow.jpg" alt="xyflow preview" width="256">
  </a>
 </div>
+=======
+# mecash-docs
+>>>>>>> e525160d883c11aec999a08fa857ec8735a5457d

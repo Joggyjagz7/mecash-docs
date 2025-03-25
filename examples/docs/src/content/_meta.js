@@ -5,9 +5,10 @@ export default {
   'delete-your-api-key': '',
   features: '',
   themes: '',
-  'api-key': '',
-  'wallet': '',
-  'payouts': '',
+  wallet: '',
+  payouts: '',
   'virtual-account': '',
-  'webhooks': ''
+  webhooks: '',
+  mermaid:'',
+  page:''
 }
